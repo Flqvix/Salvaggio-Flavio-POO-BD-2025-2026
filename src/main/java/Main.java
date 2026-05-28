@@ -3,6 +3,9 @@ import controller.Controller;
 
 public class Main {
     public static void main(String[] args) {
+
+        com.formdev.flatlaf.FlatDarkLaf.setup();
+
         // Creiamo il controller
         Controller controller = new Controller();
 
